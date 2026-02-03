@@ -74,3 +74,24 @@ body {
     padding: 10px;
     text-align: center;
 }
+.galeria-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+/* apartado de los lugares de interes */
+.lugares-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.ficha-lugar {
+    background-color: #f0f0f0;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 180px auto auto auto;/* el auto sirve para que la fila se apate si la pagina crece o no */
+}
+.ficha-lugar img {
+    width: 100%;
+    height: 180px;
+}
