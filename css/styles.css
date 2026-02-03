@@ -124,3 +124,19 @@ body {
     display: grid;
     grid-template-rows: 120px auto auto 30px;
 }
+.noticia-item img {
+    width: 100%;
+    height: 120px;
+}
+.noticia-item h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.noticia-item p {
+    font-size: 13px;
+}
+.noticia-item a {
+    text-decoration: none;
+    color: #1e88e5;
+    font-size: 13px;
+}
