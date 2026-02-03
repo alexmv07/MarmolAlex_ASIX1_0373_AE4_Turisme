@@ -186,3 +186,24 @@ body::after {
         grid-template-rows: repeat(5, auto);
     }
 }
+
+/* BOOTSTRAP */
+
+.columna-contenido .carousel * {
+    box-sizing: border-box;
+}
+
+.columna-contenido .carousel img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.row {
+    display: block;
+}
+.carousel {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
