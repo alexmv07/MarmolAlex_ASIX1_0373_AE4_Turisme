@@ -9,9 +9,21 @@ body {
     background-color: #f4f4f4;
     color: #222;
 }
-
+/* contenedor principal que son las 3 columnas */
 .contenedor-principal {
     display: grid;
     grid-template-columns: 250px 1fr 300px;
     min-height: 100vh;
 }
+
+/* columna 1 que es la del menu */
+
+.columna-menu {
+    background-color: #1e2a38;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
