@@ -42,3 +42,11 @@ body {
 .lista-menu li {
     margin-bottom: 15px;
 }
+.lista-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.lista-menu a:hover {
+    color: #4fc3f7;
+}
