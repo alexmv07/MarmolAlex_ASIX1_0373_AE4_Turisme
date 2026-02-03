@@ -169,3 +169,20 @@ body::after {
         grid-template-columns: 1fr;
     }
 }
+/* para el movil */
+@media (max-width: 600px) {
+
+    .contenedor-principal {
+        grid-template-columns: 1fr;
+    }
+    .columna-menu {
+        height: auto;
+        position: relative;
+    }
+    .galeria-contenedor {
+        grid-template-columns: 1fr;
+    }
+    .noticias-contenedor {
+        grid-template-rows: repeat(5, auto);
+    }
+}
