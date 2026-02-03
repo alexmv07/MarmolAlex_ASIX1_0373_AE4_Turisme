@@ -115,7 +115,7 @@ body {
 }
 .noticias-contenedor {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;/*fr es para que la caja se divida en este caso en 5*/
     gap: 15px;
 }
 .noticia-item {
@@ -151,4 +151,21 @@ body::after {
     padding: 10px 15px;
     font-weight: bold;
     cursor: pointer;
+}
+/* css para la tablet */
+@media (max-width: 900px) {
+
+    .contenedor-principal {
+        grid-template-columns: 200px 1fr;
+    }
+    .columna-noticias {
+        grid-column: 1 / 3;
+        order: 3;
+    }
+     .galeria-contenedor {
+        grid-template-columns: 1fr 1fr;
+    }
+     .lugares-contenedor {
+        grid-template-columns: 1fr;
+    }
 }
