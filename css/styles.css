@@ -27,3 +27,18 @@ body {
     height: 100vh;
 }
 
+.columna-menu h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.subtitulo {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.lista-menu {
+    list-style: none;
+}
+.lista-menu li {
+    margin-bottom: 15px;
+}
