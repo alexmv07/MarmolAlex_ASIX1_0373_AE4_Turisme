@@ -50,3 +50,16 @@ body {
 .lista-menu a:hover {
     color: #4fc3f7;
 }
+/* columna 2 que es en la que esta todo el contenido */
+.columna-contenido {
+    padding: 30px;
+    background-color: white;
+}
+.seccion {
+    margin-bottom: 60px;
+}
+.seccion h2 {
+    border-bottom: 3px solid #1e2a38;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
